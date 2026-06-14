@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Space+Mono&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --animate-spin-slow: spin 16s linear infinite;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, Cambria, serif;
+  --font-mono: "Space Mono", monospace;
+  
+  --color-nat-bg: #FDFBF7;
+  --color-nat-text: #4A5D4E;
+  --color-nat-dark: #3E4A3F;
+  --color-nat-light: #7A8C7C;
+  --color-nat-brand: #8BA88E;
+  --color-nat-card: #FAF7F2;
+  --color-nat-alt: #F2EDE4;
+  --color-nat-border: #E6E1D6;
+}
+
+/* Custom styles for the Natural Tones zen atmosphere */
+body {
+  background-color: var(--color-nat-bg);
+  color: var(--color-nat-text);
+  font-family: var(--font-sans);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 168, 142, 0.25);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 168, 142, 0.45);
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": " Anxiety Relief ",
+  "description": "An interactive scientific anxiety relief app featuring box \u0026 4-7-8 breathing guidance, sensory grounding exercises, synthesized soothing ambient sound nodes, and local mood diaries with Recharts clinical trend visualization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
